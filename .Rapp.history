@@ -1,0 +1,250 @@
+x(c(3,2))
+x[c(3,2)]
+x <- list(a=c(first="good",second="great",third="excellent"),b="whatevs",c=c(one=1,two=2,three=3,four=4))
+x[c(3,2)]
+x$b'
+x
+e
+Z2
+12-=
+/
+-oewrdfs
+\
+\wa4ers
+x$b
+x$c
+x$c(3,2)
+x[c(3,2)]
+x["c"]
+x[["c"]]
+x[["b"]]
+x["b"]
+x[["a"]]
+x["a"]
+x[[c(3,2)]]
+x[[c(3,4)]]
+x[[c(2,1)]]
+x[[c(2,2)]]
+x[[c(1,4)]]
+x[[c(1,3)]]
+''
+x'
+\''
+x'
+\x'
+x <- matrix(1:6,2,3)
+x
+x[1,2]
+x[3,1]
+x[1,3]
+x<-matrix(1:6,nrow=2,ncol=3)
+x
+x<-matrix(1:120,15,8)
+x
+x[13,]
+x[14,6]
+x[6,1]
+x[6,14]
+x[15,8]
+x[1,2,drop=FALSE]
+x[1,2]
+x[1,2,drop=FALSE]
+x[[1,2]]
+x[[1,2,drop=FALSE]]
+x[1, ,]
+x[1,]
+x[1,,drop=FALSE]
+x[1,,drop=false]
+x=[1,,drop=FALSE]
+x[1,,drop=FALSE]
+X[1,,drop=FALSE]
+x[1,,drop=FALSE]
+x$10
+x
+x[[10]]
+x[[106]]
+x[3,10]
+x[10,3]
+y <- list(pokemon=a:z)
+y<-list(letters="a":"z")
+y <- list(numbers=1:100)
+y
+y[["n"]]
+y$n
+y[["n",exact=FALSE]]
+y <- c(1,2,NA,4,NaN)
+y
+is.na(y)
+is.nan(y)
+qaqa <- is.na(y)
+y[!qaqa]
+qaqa
+!qaqa
+is.na(y)
+x[y]
+y
+z <- c(1,NA,NaN,4,NA)
+wqwq <- complete.cases(y,z)
+wqwq
+x[wqwq]
+y[wqwq]
+z[wqwq]
+b <- matrix(rep(10,4),2,2)
+b
+b<-matrix(rep(60,35),7,5)
+b
+c <- list(2,"a","b",TRUE)
+c[[1]]
+c
+install.packages("swirl")
+packageVersion("swirl")
+install.packages("swirl")
+install.packages("evaluate")
+packageVersion("evaluate")
+install.packages("codetools")
+install.packages("testthat")
+install.packages("swirl")
+library(swirl)
+install.packages("swirl")
+library(swirl)
+ls
+swirl()
+packageVersion("swirl")
+library(swirl)
+swirl()
+install_from_swirl("R Programming")
+swirl()
+5 + 7
+x <- 5 + 7
+x
+y <- x - 3
+y
+z <- c(1.1,9.3.14)
+z <- c(1.1,9,3.14)
+?c
+z
+c(z, 555, x)
+c(z, 555, z)
+z * 2 + 100
+my_sqrt <- sqrt(z - 1)
+my_sqrt
+my_div <- z / my_sqrt
+my_div
+c(1,2,3,4) + c(0,10)
+bye()
+c(1,2,3,4)+c(0,10)
+c(1+0)+c(2+10)+c(3+0)+c(4+10)
+swirl()
+c(1,2,3,4)+c(0,10,100)
+z * 2 + 1000
+my_div
+x <- c(10,20,30,40)/c(2,3,4,5,6)
+x
+swirl()
+library("swirl")
+swirl()
+getwd()
+ls()
+x <- 9
+ls()
+list.files()
+help("list.files")
+args(list.files)
+old.dir <- getwd()
+dir.create(testdir)
+args(dir.create)
+dir.create("testdir")
+setwd(testdir)
+setwd("testdir")
+file.create("mytest.R")
+ls()
+list.files()
+file.exists("mytest.R")
+file.info(mytest.R)
+file.info("mytest.R")
+file.rename("mytest2.R")
+args(file.rename)
+file.rename("mytest.R","mytest2.R")
+args(file.copy)
+file.copy("mytest2.R","mytest3.R")
+play()
+next()
+nxt()
+file.path("mytest3.R")
+file.path(folder1,folder2)
+args(file.path)
+file.path("folder1","folder2")
+play()
+$file.path
+?file.path
+list.files()
+folder1
+folder2
+nxt()
+?dir.create
+dir.create(file.path("testdir2","testdir3"))
+dir.create(file.path("testdir2","testdir3",recursive=TRUE))
+dir.create(file.path('testdir2','testdir3',recursive=TRUE))
+dir.create(file.path("testdir2","testdir3"),recursive=TRUE)
+setwd()
+setwd(old.dir)
+file.remove(testdir)
+file.remove('testdir')
+file.remove('testdir3')
+library("swirl")
+ls()
+rm(list=ls())
+ls()
+setwd("Documents")
+setwd("R")
+setwd()
+library("swirl")
+swirl()
+getwd()
+ls()
+x <- 9
+ls()
+list.files()
+?list.files
+args(list.files)
+old.dir <- getwd()
+dir.create(testdir)
+dir.create("testdir")
+setwd("testdir")
+file.create("mytest.R")
+dir()
+file.exists("mytest.R")
+file.info("mytest.R")
+file.rename("mytest.R","mytest2.R")
+file.copy("mytest2.R","mytest3.R")
+file.path("mytest2.R","mytest3.R")
+args(file.path)
+file.path("mytest3.R")
+file.path('folder1','folder2')
+?dir.create
+dir.create(file.path("testdir2","testdir3"),recursive=TRUE)
+setwd(old.dir)
+file.remove('testdir3.R')
+file.remove('testdir')
+?dir.remove
+setwd('testdir')
+file.remove('testdir2.R')
+setwd(old.dir)
+args(file.remove)
+file.remove(mytest2.R)
+file.remove("mytest2.R")
+setwd('R')
+setwd('testdir')
+file.remove("mytest2.R")
+file.remove("mytest3.R")
+fie.remove("testdir2")
+file.remove("testdir2")
+setwd("testdir2")
+file.remove("testdir3")
+setwd(old.dir)
+file.remove("testdir2")
+setwd("testdir")
+file.remove("testdir2")
+setwd("R")
+setwd(old.dir)
+file.remove("testdir")
